@@ -48,7 +48,7 @@ SMTP connection validated successfully.
 Automation started.
 Automation completed.
 Attached file: Marvellous_25_07_2026_18_30_00.log
-✓ Email successfully sent to mangesh@gmail.com
+Email successfully sent to mangesh@gmail.com
 ```
 
 ### Help & Usage Flags
