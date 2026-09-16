@@ -171,9 +171,9 @@ Marvellous Automation System
             server.starttls()
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.send_message(msg)
-            print(f"✓ Email successfully sent to {recipient_email}")
+            print(f"Email successfully sent to {recipient_email}")
     except Exception as e:
-        print(f"✗ Failed to send email: {e}")  
+        print(f"Failed to send email: {e}")  
 
 ##########################################################
 #
