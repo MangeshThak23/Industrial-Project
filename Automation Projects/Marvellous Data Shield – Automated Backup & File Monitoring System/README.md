@@ -99,6 +99,10 @@ ZIP File Created   : Backup_2026-05-15_14-30-00.zip
 
 ---
 
+## 📊 System Architecture & Workflow
+
+![System Architecture](Data-shield-workflow.png)
+
 ## How It Works
 
 1. **Initialization:** The script starts a scheduler loop waiting for the configured time interval.
