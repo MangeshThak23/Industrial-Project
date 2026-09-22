@@ -17,7 +17,7 @@ def Send_Email(log_path, current_cpu):
     #To configure credentials and receiver details.
 
     sender_email = "sender_email@gmail.com"
-    sender_password =  "asdfghjklqwertyu"   #This the App password for gmail
+    sender_password =  "zzzzzzzzzzzzzz"   #This the App password for gmail
     receiver_email = "receiver_email@gmail.com"
 
     try:
