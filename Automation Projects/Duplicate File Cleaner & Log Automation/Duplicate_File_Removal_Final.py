@@ -120,8 +120,8 @@ def sendsimpleemail(recipient_email,file_count,starttime,end_time,scanDirectory,
     SMTP_SERVER = "smtp.gmail.com"
     SMTP_PORT = 587
 
-    SENDER_EMAIL = os.getenv("SENDER_EMAIL", "mangesht.2324@gmail.com")
-    SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "abc1231234")
+    SENDER_EMAIL = os.getenv("SENDER_EMAIL", "mangesh@gmail.com")
+    SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "abc")
     msg = EmailMessage()
     msg["Subject"] = "Duplicate email from Automation"
     msg["From"] = SENDER_EMAIL
@@ -235,7 +235,7 @@ Example:
      print(message)
      sys.exit(1)
 
-    isvalid, message = UVM.smtpconnectionvalidate(smtp_server="smtp.gmail.com",smtp_port=587,username=sys.argv[2],password="abc1231234")
+    isvalid, message = UVM.smtpconnectionvalidate(smtp_server="smtp.gmail.com",smtp_port=587,username=sys.argv[2],password="abc")
     print(isvalid)
     print(message)
 
