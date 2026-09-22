@@ -89,20 +89,20 @@ Number of active CPU cores: 4
 CPU Usage: 84.50 %
 --------------------------------------------------
 RAM Usage: 62.30 %
-Total RAM Available: 17056432128
+Total RAM Available: 170528
 --------------------------------------------------
 Network Usage Report
 Sent : 142.50 MB
 Received : 890.12 MB
 --------------------------------------------------
-PID:       1024
+PID:       14
 Name:      chrome.exe
 User Name: SYSTEM
 Status:    running
 CPU usage: 12.40
 RAM usage: 3.10
 --------------------------------------------------
-PID:       4812
+PID:       12
 Name:      python.exe
 User Name: Administrator
 Status:    running
